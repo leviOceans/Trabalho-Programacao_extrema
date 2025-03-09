@@ -92,7 +92,7 @@ function FormularioPadre() {
           life: 3000,
         });
 
-        //limpar();
+        limpar();
       })
       .catch((error) => {
         toast.current.show({
